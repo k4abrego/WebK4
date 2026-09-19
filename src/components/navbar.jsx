@@ -1,4 +1,3 @@
-
 import { useState } from 'react'
 
 function Navbar() {
@@ -24,7 +23,7 @@ function Navbar() {
         <a href="about.jsx" onClick={closeMenu}>
           About
         </a>
-        
+
         <a href="#projects" onClick={closeMenu}>
           Projects
         </a>
