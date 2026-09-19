@@ -29,3 +29,6 @@ Thumbs.db
 # Archivos temporales
 *.tmp
 *.temp
+
+# Imagenes
+*ka.png
