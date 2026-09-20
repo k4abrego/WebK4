@@ -24,12 +24,12 @@ function Navbar() {
           About
         </a>
 
-        <a href="#projects" onClick={closeMenu}>
-          Projects
+        <a href="skills.jsx" onClick={closeMenu}>
+          Skills
         </a>
 
-        <a href="#skills" onClick={closeMenu}>
-          Skills
+        <a href="#projects" onClick={closeMenu}>
+          Projects
         </a>
 
         <a href="#journey" onClick={closeMenu}>

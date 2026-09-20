@@ -5,11 +5,11 @@ function GradientText({
   colors = [
     '#965E5E',
     '#FF1362',
-    '#FFC9A3',
     '#D98691',
+    '#ffb29dff',
     '#9B5258'
   ],
-  animationSpeed = 10,
+  animationSpeed = 15,
   className = ''
 }) {
   const gradient = `linear-gradient(
@@ -22,7 +22,7 @@ function GradientText({
       className={`gradient-text ${className}`}
       style={{
         backgroundImage: gradient,
-        animationDuration: `${animationSpeed}s`
+        animationDuration: `${animationSpeed}s`,
       }}
     >
       {children}

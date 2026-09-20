@@ -13,9 +13,10 @@ function About(){
             </div>
 
             <div className='about-content'>
-                <h2 className='about-label'>About me</h2>
-                <h1 className="about-title"> Hi! I'm{' '} <GradientText animationSpeed={6}>
-                    Karen Abrego </GradientText> </h1>
+                <h2 className='about-label'> {' '} <GradientText animationSpeed={20}> 
+                    About Me </GradientText> </h2>
+                <h1 className="about-title"> {' '} <GradientText animationSpeed={20}>
+                    Hi! I'm Karen Abrego </GradientText> </h1>
 
                 <p className='about-description'>
                     I'm a CS and Technology student at Tecnológico de Monterrey.
