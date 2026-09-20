@@ -1,3 +1,6 @@
+// you need to modify the import statements for the images to match the new file paths
+// you can find them in: https://react-icons.github.io/react-icons/ to add the necessary libraries
+
 import { VscVscode } from 'react-icons/vsc';
 import {
   SiCplusplus,
@@ -22,7 +25,7 @@ import {
   SiIntellijidea
 } from 'react-icons/si';
 
-//estas importaciones son porque no estaban los logos por la librería react-icons
+// these imports are because the logos weren't in the library React-icons/Si
 import { FaCss3Alt, FaAws } from 'react-icons/fa'; 
 import { BsFiletypeSql } from 'react-icons/bs';
 import { TbBrandCSharp } from 'react-icons/tb';

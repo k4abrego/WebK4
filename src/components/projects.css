@@ -1,0 +1,145 @@
+.projects {
+  width: 100%;
+  max-width: 1450px;
+  margin: 0 auto;
+  padding: 80px 7%;
+  scroll-margin-top: 80px;
+}
+
+.projects-title {
+  margin: 0 0 40px;
+  font-size: clamp(32px, 4vw, 44px);
+  font-weight: 800;
+  text-align: right;
+}
+
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+
+  gap: 45px 60px;
+}
+
+.project-card {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #FF1362;
+  border-radius: 16px;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  box-shadow: 0 8px 24px rgba(255, 19, 98, 0.08);
+}
+
+
+.project-image {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff4f4;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.project-image span {
+  color: var(--secondary);
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.project-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 12px;
+}
+
+.project-content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding-top: 18px;
+}
+
+.project-content h3 {
+  margin: 0 0 8px;
+  font-size: clamp(18px, 2vw, 23px);
+  font-weight: bold;
+  color: #B82F5D;
+}
+
+.project-content p {
+  margin: 0 0 20px;
+  font-size: 16px;
+  line-height: 1.45;
+  color: #454141;
+}
+
+
+.project-button {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: auto;
+  margin-left: auto;
+  background-color: #B82F5D;
+  color: #ffffff;
+  border: none;
+  border-radius: 50%;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.project-button:disabled {
+  cursor: default;
+}
+
+
+@media (max-width: 768px) {
+  .projects {
+    padding: 60px 7%;
+  }
+
+  .projects-title {
+    text-align: center;
+  }
+
+  .projects-container {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+
+  .project-card {
+    padding: 15px;
+  }
+
+  .project-content h3 {
+    font-size: 20px;
+  }
+
+  .project-content p {
+    font-size: 15px;
+  }
+
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .project-card {
+    transition: none;
+  }
+
+  .project-card:hover {
+    transform: none;
+  }
+}
