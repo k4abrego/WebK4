@@ -1,5 +1,7 @@
+import { useState } from 'react';
 import './Projects.css';
 import GradientText from './gradientText';
+import ProjectDetail from './projectdetail';
 
 //ypu just need to modify the import statements for the images to match the new file paths
 import bankingImg from '../assets/projects/nextbuypre.png';
@@ -45,6 +47,8 @@ const projects = [
 ];
 
 function Projects() {
+  const [selectedProject, setSelectedProject] = useState(null);
+
   return (
     <section id="projects" className="projects">
 
@@ -66,12 +70,20 @@ function Projects() {
                         className="project-button"
                         type="button"
                         aria-label={`View details of ${project.title}`}
-                        disabled> &gt;
+                        onClick={() => setSelectedProject(project)}> 
+                        &gt;
                     </button>
                 </div>
           </article>
         ))}
       </div>
+
+        {selectedProject && (
+        <ProjectDetail
+            project={selectedProject}
+            onClose={() => setSelectedProject(null)}/>
+        )}
+
     </section>
   );
 }

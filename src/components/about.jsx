@@ -19,10 +19,8 @@ function About(){
                     Hi! I'm Karen Abrego </GradientText> </h1>
 
                 <p className='about-description'>
-                    I'm a CS and Technology student at Tecnológico de Monterrey.
-                    <br />
-                    I also serve as Vice President of the ITC student society and President at Flopware.
-                    <br />
+                    I'm a CS and Technology student at Tecnológico de Monterrey. I also serve as Vice President of the ITC student society and President at Flopware.
+
                     I build, learn, and occasionally fix bugs that were definitely not my fault, lol.
                 </p>
 
