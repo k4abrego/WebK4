@@ -24,7 +24,7 @@ function Navbar() {
           About
         </a>
 
-        <a href="skills.jsx" onClick={closeMenu}>
+        <a href="#skills" onClick={closeMenu}>
           Skills
         </a>
 
@@ -32,13 +32,13 @@ function Navbar() {
           Projects
         </a>
 
-        <a href="#journey" onClick={closeMenu}>
+        {/* <a href="#journey" onClick={closeMenu}>
           Journey
-        </a>
+        </a> */}
 
-        <a href="#contact" onClick={closeMenu}>
+        {/* <a href="#contact" onClick={closeMenu}>
           Contact
-        </a>
+        </a> */}
 
       </nav>
 
