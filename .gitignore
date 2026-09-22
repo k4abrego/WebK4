@@ -30,6 +30,6 @@ Thumbs.db
 *.tmp
 *.temp
 
-# Imagenes
-*ka.png
-src/assets/projects/* 
+# # Imagenes
+# *ka.png
+# src/assets/projects/* 
