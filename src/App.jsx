@@ -1,5 +1,5 @@
-import Navbar from './components/Navbar'
-import About from './components/About'
+import Navbar from './components/navbar'
+import About from './components/about'
 import Skills from './components/skills'
 import Projects from './components/projects'
 import './App.css'
