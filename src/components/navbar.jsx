@@ -20,7 +20,7 @@ function Navbar() {
 
       <nav className={`navbar-links ${menuOpen ? 'open' : ''}`}>
 
-        <a href="about.jsx" onClick={closeMenu}>
+        <a href="#about" onClick={closeMenu}>
           About
         </a>
 
