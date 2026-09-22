@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import './Projects.css';
+import './projects.css';
 import GradientText from './gradientText';
 import ProjectDetail from './projectdetail';
 
